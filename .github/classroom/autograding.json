@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "run_test_suite",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "python3 -m pytest",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}
