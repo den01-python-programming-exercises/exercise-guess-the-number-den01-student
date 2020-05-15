@@ -1,0 +1,2 @@
+language = "python"
+run = "if python -c 'import pytest'; then cd src; python3 exercise.py; else pip install pytest; cd src; python3 exercise.py; fi"
